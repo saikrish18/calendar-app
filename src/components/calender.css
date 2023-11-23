@@ -1,0 +1,38 @@
+.calendar {
+    font-family: Arial, sans-serif;
+    color: rgb(161, 169, 175);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  
+  /* Calendar table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(38, 53, 85)
+  }
+  
+  /* Days of the week heading */
+  th {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Individual date cells */
+  td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Empty cells for preceding and trailing days */
+  .empty-cell {
+    visibility: hidden;
+  }
+  
+  /* Highlighted current date cell */
+  .highlight {
+    background-color: rgb(139, 142, 145);
+    color: black;
+  }
+  
